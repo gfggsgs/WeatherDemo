@@ -5,15 +5,74 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="3"
     tools:context=".MainActivity">
 
-    <TextView
+
+<!--    <Button-->
+<!--        android:id="@+id/btnOne"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:text="One" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnTwo"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_above="@id/btnOne"-->
+<!--        android:layout_alignLeft="@id/btnOne"-->
+<!--        android:layout_alignRight="@id/btnOne"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:text="Two" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnThree"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/btnOne"-->
+<!--        android:layout_alignRight="@id/btnOne"-->
+<!--        android:layout_alignLeft="@id/btnOne"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text="Three" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnfour"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_toLeftOf="@id/btnOne"-->
+<!--        android:layout_alignTop="@id/btnOne"-->
+<!--        android:layout_alignBottom="@id/btnOne"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:text="Four" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnFive"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_toRightOf="@id/btnOne"-->
+<!--        android:layout_alignTop="@id/btnOne"-->
+<!--        android:layout_alignBottom="@id/btnOne"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:text="Five" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnSix"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:text="Six" />-->
+    <Button
+        android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        tools:layout_editor_absoluteY="296dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
